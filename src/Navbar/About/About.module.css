@@ -1,0 +1,83 @@
+@import "../../vars.css";
+
+.container {
+  margin: 120px 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.content {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+.aboutItems {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+/* Base row (NO card) */
+.aboutItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  max-width: 520px;
+
+  transition: all 0.3s ease;
+}
+
+.aboutItem img {
+  width: 44px;
+  height: 44px;
+  margin-top: 4px;
+}
+
+.aboutItem h3 {
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  color: var(--color-text);
+  font-size: 15px;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.active {
+  padding: 24px;
+  border-radius: 16px;
+
+  background: rgba(60, 80, 95, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/project.png",
+    "description": "A responsive e-commerce web application built using React and Node.js.",
+    "skills": ["React",  "Node"],
+    "demo": "https://drive.google.com/open?id=18ghWAcdErhScUBxChHsnRnc6HYF8uXkF&usp=drive_fs",
+    "source": "https://github.com/jyothichandana"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/project.png",
+    "description": "A frontend web application developed using React to practice component-based architecture.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://drive.google.com/open?id=16EbLY0sJ-SJYaWvVYtj7cf-7p7lbR4F0&usp=drive_fs",
+    "source": "https://github.com/jyothichandana"
+  }
+  
+]
