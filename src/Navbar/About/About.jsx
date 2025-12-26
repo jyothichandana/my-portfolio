@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./About.module.css";
 
-import aboutImg from "../../../assets/about/aboutImage.png";
+import AboutImg from "../../../assets/about/AboutImage.png";
 import serverIcon from "../../../assets/about/serverIcon.png";
 import cursorIcon from "../../../assets/about/cursorIcon.png";
 
@@ -14,7 +14,7 @@ const About = () => {
       <h2 className={styles.title}>ABOUT</h2>
 
       <div className={styles.content}>
-        <img src={aboutImg} alt="about" className={styles.aboutImage} />
+        <img src={AboutImg} alt="about" className={styles.AboutImage} />
 
         <ul className={styles.aboutItems}>
           

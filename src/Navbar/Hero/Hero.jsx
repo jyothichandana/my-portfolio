@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Bharathi</h1>
+        <h1 className={styles.title}>Hii, I'm Bharathi</h1>
 
         <p className={styles.description}>
           I am a MERN Stack Developer with a strong interest in building
@@ -21,12 +21,9 @@ const Hero = () => {
         </a>
       </div>
 
-      
-      <img
-        src={HeroImg}
-        alt="Hero"
-        className={styles.HeroImg}
-      />
+      <div className={styles.imageWrapper}>
+        <img src={HeroImg} alt="Hero" className={styles.heroImg} />
+      </div>
     </section>
   );
 };

@@ -1,8 +1,15 @@
 @import "../../vars.css";
 
 .container {
-  margin: 120px 10%;
+  
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
 }
+
 
 .title {
   color: var(--color-text);
@@ -13,31 +20,32 @@
 
 .content {
   display: flex;
-  gap: 60px;
-  margin-top: 40px;
+  gap: 100px;
+  margin-top: 20px;
+  align-items: center;
 }
 
-.aboutImage {
-  width: 35%;
+.AboutImage {
+  width: 500px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .aboutItems {
   display: flex;
   flex-direction: column;
   gap: 35px;
+  max-width: 520px;
 }
 
-/* Base row (NO card) */
+
 .aboutItem {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-
   padding: 0;
   list-style: none;
   cursor: pointer;
-  max-width: 520px;
-
   transition: all 0.3s ease;
 }
 
@@ -63,21 +71,17 @@
 .active {
   padding: 24px;
   border-radius: 16px;
-
   background: rgba(60, 80, 95, 0.6);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
-
 
 @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
   }
 
-  .aboutImage {
-    display: none;
+  .AboutImage {
+    width: 220px;    
   }
 }
