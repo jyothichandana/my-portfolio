@@ -1,8 +1,10 @@
+
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 
-import menuIcon from "../../assets/nav/menuIcon.png";
-import closeIcon from "../../assets/nav/closeIcon.png";
+import menuIcon from "@/assets/menuIcon.png";
+import closeIcon from "@/assets/closeIcon.png";
+
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import styles from "./About.module.css";
 
-import AboutImg from "../../../assets/about/AboutImage.png";
-import serverIcon from "../../../assets/about/serverIcon.png";
-import cursorIcon from "../../../assets/about/cursorIcon.png";
+import AboutImg from "@/assets/AboutImage.png";
+
+import serverIcon from "@/assets/serverIcon.png";
+import cursorIcon from "@/assets/cursorIcon.png";
+
 
 const About = () => {
 
